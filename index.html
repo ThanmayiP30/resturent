@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Restaurant Reservation</title>
+</head>
+<body>
+  <h1>Welcome to Our Restaurant</h1>
+  <p>Already have an account? <a href="login.html">Login here</a>.</p>
+  <h3>or</h3>
+  <p>Sign in here <a href=""></a></p>
+
+  <p>Make a reservation below:</p>
+
+  <form action="reservation.html" method="get">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="time" required>
+
+    <button type="submit">Make Reservation</button>
+  </form>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
